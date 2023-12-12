@@ -1,0 +1,147 @@
+body{
+    background-color: 	rgb(21, 30, 43);
+    margin: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+body p{
+    font-size: 14px;
+}
+
+/*Section 1*/
+.menu{
+display: flex;
+width: 100%;
+margin: auto;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+.menu img{
+    width: 50%;
+    margin: auto;
+}
+
+.menu1{
+    width: 100%;
+    margin: auto;
+    justify-content: right;
+}
+
+nav{
+    font-size: small;
+    padding-right: 5px;
+    text-align: right;
+}
+
+
+/*Section 2*/
+.Introduction{
+    padding: 60px;
+    align-items: center;
+    width: 55%;
+    margin: auto;
+}
+
+.Intro1 img{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.Intro1{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.Intro2{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Intro21{
+    width: 25%;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+button {
+    padding: 8px;
+    width: 150px;
+    border-radius: 20px;
+    border: 0.5px solid grey;
+    background-color: cyan;
+    color: white;
+}
+
+/*Section 3*/
+.display{
+    width: 70%;
+    margin: auto;
+    align-items: centre;
+    /*padding-top: 10px;*/
+}
+
+.display div{
+    justify-content: center;
+    padding: 20px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+
+.display1{
+    display: flex;
+    padding-bottom: 10px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.display2{
+    display: flex;
+    padding-bottom: 10px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sub{
+    width: 25%;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Section 4*/
+.Container{
+    display: flex;
+    padding-bottom: 10px;
+    width: 90%;
+    margin: auto;
+   /* align-items: center;
+    justify-content: center;*/
+}
+
+.Container1{
+    justify-content: left;
+    padding: 10px;
+    width: 60%;
+    margin: auto;
+    float: left;
+}
+
+.Container2{
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}

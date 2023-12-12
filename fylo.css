@@ -122,26 +122,46 @@ button {
 
 /*Section 4*/
 .Container{
-    display: flex;
+    /*display: flex;
     padding-bottom: 10px;
     width: 90%;
     margin: auto;
-   /* align-items: center;
-    justify-content: center;*/
-}
-
-.Container1{
-    justify-content: left;
-    padding: 10px;
-    width: 60%;
-    margin: auto;
-    float: left;
-}
-
-.Container2{
-    justify-content: center;
     align-items: center;
-    padding-top: 45px;
+    justify-content: center;*/
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+
+/*Section 5*/
+.Testimonies{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+
+.Testimonies div{
+    justify-content: center;
+    padding: 20px;
+    width: 25%;
+    margin: auto;
     letter-spacing: 0.5px;
     line-height: 20px;
+    background-color: black;
+}
+
+.profile{
+    display: flex;
+    align-items: left;
+}
+
+.profile img{
+    border-radius: 50%;
+    width: 50%;
+    margin: auto;
 }

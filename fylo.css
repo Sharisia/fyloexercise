@@ -148,7 +148,7 @@ button {
 .Testimonies div{
     justify-content: center;
     padding: 20px;
-    width: 25%;
+    width: 100%;
     margin: auto;
     letter-spacing: 0.5px;
     line-height: 20px;
@@ -162,10 +162,11 @@ button {
 
 .profile div{
     align-items: left;
-    letter-spacing: 0.5px;
-    line-height: 20px;
+    /*letter-spacing: 0.5px;
+    line-height: 20px;*/
     font-size: small;
     justify-content: space-evenly;
+    text-align: right;
 }
 
 .profile img{
